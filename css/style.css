@@ -878,3 +878,6 @@ section .trees {
         width: 100%;
     }
 }
+.main{
+    height: 80vh;
+}
