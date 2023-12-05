@@ -102,7 +102,11 @@ a {
 section {
     position: relative;
 }
-
+.contact,
+.main,
+.choice {
+    overflow-x: hidden;
+}
 section .trees {
     position: absolute;
     margin-left: auto;
@@ -796,10 +800,6 @@ section .trees {
 .conditions,
 .choice__img {
     width: 100%;
-}
-
-.choice {
-    overflow-x: hidden;
 }
 
 .conditions p {
