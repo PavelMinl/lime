@@ -102,6 +102,7 @@ a {
 section {
     position: relative;
 }
+.developer,
 .contact,
 .main,
 .choice {
@@ -117,7 +118,7 @@ section .trees {
     bottom: 0;
     z-index: 11;
 }
-
+.developer__container,
 .contact__container,
 .header__navigate--link,
 .header__top {
@@ -782,6 +783,7 @@ section .trees {
 .choice__img {
     margin-right: -30px;
     margin-top: 50px;
+    min-height: 700px;
 }
 
 .choice__img img {
@@ -880,4 +882,162 @@ section .trees {
 }
 .main{
     height: 80vh;
+}
+.company__parameters{
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 0;
+}
+.flex-item{
+    flex: 1;
+}
+.company__parameters--img img{
+    width: 100%;
+}
+.company__logo{
+    display: flex;
+    align-items: flex-end;
+}
+.company__logo p{
+    color: #404040;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.company__parameters--list h1{
+    color: #3A3A3A;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 113.2%;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.company__parameters--jobs{
+    display: flex;
+    align-items: center;
+}
+.company__parameters--jobs>div{
+    flex: 1;
+    max-width: 340px;
+    margin-right: 10px;
+}
+.company__parameters--jobs>div p{
+    max-width: 240px;
+    color: #3A3A3A;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.company__parameters--jobs{
+    margin-bottom: 30px;
+}
+.team{
+    padding-bottom: 250px;
+}
+.team h2{
+    color: #3A3A3A;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113.2%;
+}
+.team>p{
+    color: #3A3A3A;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 20px 0 70px;
+}
+.team__lists{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.team__list{
+    position: relative;
+}
+.team__list img{
+    width: 100%;
+    height: 100%;
+}
+.team__list--name{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.team__list--name p{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.team__list--name span{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+}
+.partner h2{
+    color: #3A3A3A;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 113.2%;
+}
+.partner>p{
+    color: #3A3A3A;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 70px;
+    margin-top: 15px;
+}
+.partner__lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+.partner{
+    padding-bottom: 170px;
+}
+.partner__list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.partner__list p{
+    color: #2B2B2B;
+    font-size: 30px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.partner__list span{
+    color: #2B2B2B;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    max-width: 350px;
+    display: inline-block;
+}
+.partner__list--about{
+    width: 100%;
+}
+.partner__list--photo{
+    display: flex;
+    min-width: 300px;
+    margin-right: 30px;
+    justify-content: flex-start;
+}
+.partner__list--photo img{
+    width: 100%;
+}
+.partner__list--photo>div{
+    width: fit-content;
+}
+.choice__img--photo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+@media (max-width: 1770px) {
+    .choice__img--photo{
+        width: 700px;
+    }
 }
