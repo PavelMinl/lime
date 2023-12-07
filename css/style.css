@@ -118,6 +118,7 @@ section .trees {
     bottom: 0;
     z-index: 11;
 }
+.construction__main--container,
 .developer__container,
 .contact__container,
 .header__navigate--link,
@@ -1040,4 +1041,176 @@ section .trees {
     .choice__img--photo{
         width: 700px;
     }
+}
+@media (max-width: 1700px) {
+    .partner__list p{
+       white-space: initial;
+    }
+}
+@media (max-width: 1400px) {
+    .partner__list--photo{
+        min-width: 180px;
+    }
+    .team__lists{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 1300px) {
+    .choice__img--photo{
+        width: 600px;
+    }
+}
+@media (max-width: 1100px) {
+    .choice__img--photo{
+       display: none;
+    }
+    .partner__lists{
+        display: flex;
+        flex-direction: column;
+    }
+    .partner__list--photo img{
+        width: 180px;
+    }
+    .team{
+        padding-bottom: 100px;
+    }
+    .company__parameters{
+        flex-direction: column;
+        padding: 0 0 69px;
+    }
+}
+@media (max-width: 900px) {
+    .team__lists{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width: 768px) {
+    .team h2,
+    .partner h2{
+        text-align: center;
+        font-size: 45px;
+    }
+    .team>p,
+    .partner>p{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .partner__list p{
+        font-size: 22px;
+    }
+    .partner__list span{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .partner__list--photo{
+        min-width: initial;
+    }
+    .partner__list--photo img{
+        max-width: 90px;
+    }
+    .partner{
+        padding-bottom: 120px;
+    }
+    .team__list--name{
+        position: static;
+        text-align: center;
+    }
+    .team__list--name span,
+    .team__list--name p{
+        font-size: 18px;
+        color: #2B2B2B;
+    }
+    .team__list img{
+        width: 186px;
+        height: 186px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 8px;
+    }
+    .team__lists{
+        gap: 50px;
+    }
+    .team__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .company__parameters--list h1{
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .company__parameters--jobs{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .company__parameters--jobs>div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .company__parameters--jobs>div p{
+        text-align: center;
+        margin-top: 6px;
+    }
+    .company__logo{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .company__logo p{
+        margin-left: 0;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+}
+.construction__main{
+    background-image: url("../img/construction_back.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 200px 0 180px;
+}
+.construction__main h1{
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 113.2%; /* 90.56px */
+    max-width: 760px;
+    margin: 20px 0 25px;
+}
+.construction__main p{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+.construction__main span{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 270px;
+    display: inline-block;
+}
+.construction__parameters{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.construction__parameters img{
+    margin-bottom: 8px;
+}
+.construction__parameters>div{
+    margin-right: 80px;
+}
+.construction__parameters>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
