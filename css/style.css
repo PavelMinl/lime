@@ -102,10 +102,7 @@ a {
 section {
     position: relative;
 }
-.developer,
-.contact,
-.main,
-.choice {
+body {
     overflow-x: hidden;
 }
 section .trees {
@@ -118,6 +115,8 @@ section .trees {
     bottom: 0;
     z-index: 11;
 }
+.construction__video,
+.construction__gallery,
 .construction__main--container,
 .developer__container,
 .contact__container,
@@ -1213,4 +1212,108 @@ section .trees {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
+}
+.construction__gallery h2{
+    color: #3B3A3A;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.construction__video h2{
+    color: #3B3A3A;
+    font-size: 80px;
+    font-weight: 400;
+}
+.construction__video{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 140px 30px 190px;
+}
+.construction__video img{
+    width: 100%;
+}
+.construction__gallery{
+    padding: 60px 30px 0;
+}
+.gallery img{
+    width: 100%;
+}
+.gallery {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+.gallery img:nth-child(n + 3) {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.gallery img:nth-child(1),
+.gallery img:nth-child(6){
+    grid-row: span 2;
+    grid-column: span 2;
+}
+@media (max-width: 1100px) {
+    .construction__main h1{
+        text-align: center;
+        max-width: initial;
+    }
+    .construction__main span,
+    .construction__main p{
+        text-align: center;
+    }
+    .construction__parameters img{
+        margin-bottom: 10px;
+    }
+    .construction__parameters{
+        flex-direction: column;
+    }
+    .construction__parameters>div{
+        margin-right: 0;
+    }
+    .construction__main{
+        padding: 160px 0 120px;
+        margin-top: -126px;
+    }
+    .construction__parameters>div>div{
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .construction__gallery h2,
+    .construction__video h2{
+        font-size: 45px;
+    }
+}
+@media (max-width: 768px){
+    .construction__main p{
+        font-size: 18px;
+    }
+    .construction__main h1{
+        font-size: 45px;
+        margin: 20px 0 50px;
+    }
+    .construction__gallery h2,
+    .construction__video h2{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .construction__video{
+        flex-direction: column;
+    }
+    .construction__video{
+        padding: 45px 30px 120px;
+    }
+    .gallery{
+        display: flex;
+    }
 }
