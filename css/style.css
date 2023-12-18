@@ -115,6 +115,8 @@ section .trees__container {
     bottom: -4px;
     z-index: 11;
 }
+.material h2,
+.project__communications,
 .project__our,
 .construction__video,
 .construction__gallery,
@@ -1316,6 +1318,7 @@ section .trees__container {
     }
     .gallery{
         display: flex;
+        overflow-y: auto;
     }
 }
 #magnify {
@@ -1514,4 +1517,74 @@ color: #FFFFFF;
     margin-bottom: 5px;
     display: block
 }
-
+.project__communications h2{
+    color: #101010;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 55px;
+}
+.communications__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+.communications__list>div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.communications__list img{
+    margin-right: 20px;
+}
+.communications__list p {
+    color: #2B2B2B;
+    font-size: 30px;
+    font-weight: 700;
+}
+.communications__list span{
+    color: #2B2B2B;
+    font-size: 30px;
+    font-weight: 400;
+}
+.project__communications{
+    padding: 0 30px 200px;
+}
+.material{
+    padding-bottom: 200px;
+}
+.material__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.material__parameters>div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.material__parameters>div:last-child{
+    margin-bottom: 0;
+}
+.material__parameters{
+    margin-left: -120px;
+}
+.material__img{
+    z-index: 1;
+}
+.material__parameters>div p{
+    color: #2B2B2B;
+    font-size: 30px;
+    font-weight: 400;
+}
+.material__parameters--img{
+    min-width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.material h2{
+    color: #101010;
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
