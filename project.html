@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
 <section class="header">
@@ -141,7 +145,48 @@
                 </div>
             </div>
             <div class="project__gallery--slider">
-                <img src="img/project_gallery.png">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <div thumbsSlider="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/project_gallery.png">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="project__about">
@@ -314,6 +359,7 @@
     </div>
 </section>
 <script defer src="js/jquery.min.js"></script>
+<script defer src="js/swiper-bundle.min.js"></script>
 <script defer src="js/script.js"></script>
 </body>
 </html>
