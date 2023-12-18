@@ -1645,6 +1645,9 @@ width: 48px !important;
     height: 48px;
     background-repeat: no-repeat;
 }
+.project__gallery--slider .swiper-pagination{
+    display: none;
+}
 @media (max-width: 1550px) {
     .project__our--container{
         display: flex;
@@ -1846,5 +1849,18 @@ width: 48px !important;
     }
     .project__gallery--slider .swiper{
         width: 100%;
+    }
+    .swiper-wrapper{
+        margin-bottom: 35px;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #244E85 !important;
+
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+        margin: 0 1px!important;
+    }
+    .project__gallery--slider .swiper-pagination{
+        display: block;
     }
 }

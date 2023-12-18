@@ -42,14 +42,5 @@ document.addEventListener('DOMContentLoaded', function () {
             el: ".swiper-pagination",
             clickable: true,
         },
-        breakpoints: {
-            1000: {
-                pagination: false,
-            }
-        },
-    });
-    window.addEventListener('resize', function () {
-        swiper.update();
-        swiper2.update();
     });
 });
