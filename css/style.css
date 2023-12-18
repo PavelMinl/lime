@@ -1589,14 +1589,11 @@ color: #FFFFFF;
     font-weight: 400;
     margin-bottom: 50px;
 }
-.project__gallery{
-    margin-right: 20px;
-}
 .project__price__mobile{
     display: none;
 }
 .project__gallery--slider .swiper {
-    max-width: 1080px;
+    max-width: 780px;
     width: 80%;
     margin: 0 !important;
 }
