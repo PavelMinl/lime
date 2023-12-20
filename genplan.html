@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <body>
 <section class="header">
@@ -52,7 +53,7 @@
                             <a>Технологии строительства</a>
                         </li>
                         <li>
-                            <a>Генплан</a>
+                            <a href="general.html">Генплан</a>
                         </li>
                         <li>
                             <a href="choice.html">Выбрать дом</a>
@@ -61,7 +62,7 @@
                             <a href="construction.html">Ход строительства</a>
                         </li>
                         <li>
-                            <a>Аренда техники</a>
+                            <a href="general.html">Аренда техники</a>
                         </li>
                         <li>
                             <a href="developer.html">О застройщике</a>
@@ -89,16 +90,16 @@
                         <p>Звоните, мы на связи:</p>
                         <p>Ваш город - <span>Москва</span></p>
                     </div>
-                    <a  class="header__social--mobile"href="#">+7 985 063 16 40</a>
+                    <a class="header__social--mobile" href="#">+7 985 063 16 40</a>
                 </div>
             </div>
         </nav>
     </div>
     <div class="header__navigate">
         <div class="header__navigate--link box">
-            <a href="#">Наши проекты</a>
+            <a href="project.html">Наши проекты</a>
             <a href="#">Технологии строительства</a>
-            <a class="active" href="#">Генплан</a>
+            <a class="active" href="general.html">Генплан</a>
             <a href="#">Инфраструктура</a>
             <a href="choice.html">Выбрать дом</a>
             <a href="construction.html">Ход строительства</a>
@@ -107,9 +108,67 @@
         </div>
     </div>
 </section>
-<section class="main">
+<section class="general">
     <div class="trees__container">
         <img class="trees" src="img/trees.png">
+    </div>
+    <div class="general__main">
+        <div class="general__main--container box">
+            <div class="general__main--title">
+                <p>Коттеджный поселок «Спасское»</p>
+                <h1>Выберите место вашего будущего дома</h1>
+            </div>
+            <div class="general__main--video">
+                <div class="general__video--play">
+                    <a class="invisible__link" href="#"></a>
+                    <img src="img/home_main.png">
+                    <p>Ознакомиться с домами</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="general__plan">
+        <div class="general__plan--container box">
+            <div class="general__plan--gallery">
+                <h2>Генплан</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">  <img src="img/general_img.png"></div>
+                        <div class="swiper-slide">  <img src="img/general_img.png"></div>
+                        <div class="swiper-slide">  <img src="img/general_img.png"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="general___plan--about">
+                <div class="general__about--infrastructure">
+                    <h3>Инфраструктура</h3>
+                    <p>Уже сейчас доступно все что необходимо для комфортной жизни. В ближайшее время, по завершению
+                        строительства нового жилого комплекса рядом с поселком, появится еще более обширная
+                        инфраструктура.</p>
+                    <button>Открыть карту</button>
+                </div>
+                <div class="general__about--place">
+                    <h3>Очень живописное место</h3>
+                    <p>Все коттеджи находятся в вековом сосново-лиственничном лесу. В нескольких метрах Булатниковский
+                        пруд, на который открывается панорамный вид из каждого дома</p>
+                    <button>Открыть галерею</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="general__place">
+        <div class="general__place--container box">
+            <div class="general__place--home">
+                <h2>Выберите участок</h2>
+                <p>и осмотрите дом со всех сторон</p>
+            </div>
+            <div class="general__place--img">
+                <img src="img/home_region.png">
+            </div>
+        </div>
     </div>
 </section>
 <section class="footer">
@@ -144,6 +203,9 @@
         </div>
     </div>
 </section>
+<script defer src="js/jquery.min.js"></script>
+<script defer src="js/swiper-bundle.min.js"></script>
+<script defer src="js/general/script.js"></script>
 <script defer src="js/script.js"></script>
 </body>
 </html>

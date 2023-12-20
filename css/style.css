@@ -1709,6 +1709,7 @@ section .trees__container {
     z-index: 1;
     margin-left: -100px;
     margin-bottom: 45px;
+    position: relative;
 }
 
 .material__parameters > div p {
@@ -2071,45 +2072,45 @@ section .trees__container {
     }
 }
 
-.rent__main--container {
+.general__main--container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 200px 30px;
 }
 
-.rent__main--video {
+.general__main--video {
     position: relative;
 }
 
-.rent__main {
-    background-image: url("/img/genplan_main.png");
+.general__main {
+    background-image: url("/img/general_main.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.rent__main--title p {
+.general__main--title p {
     color: #FFF;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.rent__main--title h1 {
+.general__main--title h1 {
     color: #FFF;
     font-size: 70px;
     font-weight: 400;
     line-height: 113.2%;
 }
 
-.rent___plan--about p {
+.general___plan--about p {
     color: #2B2B2B;
     font-size: 20px;
     font-weight: 400;
     max-width: 440px;
 }
 
-.rent___plan--about h3 {
+.general___plan--about h3 {
     color: #2B2B2B;
     text-align: center;
     font-size: 30px;
@@ -2124,7 +2125,7 @@ section .trees__container {
     background: #fff;
 }
 
-.rent___plan--about button {
+.general___plan--about button {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -2139,23 +2140,23 @@ section .trees__container {
     margin: 0 auto;
 }
 
-.rent__plan {
+.general__plan {
     padding: 120px 0 100px;
 }
 
-.rent__plan--container {
+.general__plan--container {
     display: flex;
     justify-content: space-between;
 }
 
-.rent__plan--gallery h2 {
+.general__plan--gallery h2 {
     color: #2B2B2B;
     font-size: 70px;
     font-weight: 400;
 }
 
-.rent__about--place,
-.rent__about--infrastructure {
+.general__about--place,
+.general__about--infrastructure {
     border-radius: 53px;
     border: 1px solid #244E85;
     padding: 55px 40px;
@@ -2163,53 +2164,53 @@ section .trees__container {
     margin-bottom: 100px;
 }
 
-.rent__place {
-    background-image: url("/img/genplan_region.png");
+.general__place {
+    background-image: url("/img/general_region.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.rent__place--container {
+.general__place--container {
     display: flex;
     justify-content: space-between;
 }
 
-.rent__place--home {
+.general__place--home {
     padding-top: 130px;
 }
 
-.rent__place--home p {
+.general__place--home p {
     color: #FFF;
     font-size: 30px;
     font-weight: 700;
 }
 
-.rent__place--home h2 {
+.general__place--home h2 {
     color: #FFF;
     font-size: 80px;
     font-weight: 400;
 }
 
-.rent__place--img {
+.general__place--img {
     backdrop-filter: blur(10px);
     padding: 130px 30px;
     margin: 0 -30px 0 0;
 }
 
-.rent__plan--gallery {
+.general__plan--gallery {
     margin-right: 30px;
 }
 
-.rent__swiper img {
+.general__swiper img {
     width: 100%;
 }
 
-.rent__place--img img,
-.rent__video--play img {
+.general__place--img img,
+.general__video--play img {
     width: 100%;
 }
 
-.rent__video--play p {
+.general__video--play p {
     color: #FFF;
     font-size: 22px;
     font-weight: 400;
@@ -2224,7 +2225,7 @@ section .trees__container {
     bottom: 25px;
 }
 
-.rent__video--play p::after {
+.general__video--play p::after {
     content: " ";
     display: inline-block;
     margin-left: 40px;
@@ -2234,15 +2235,15 @@ section .trees__container {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='10' viewBox='0 0 6 10' fill='none'%3E%3Cpath d='M6 5L6.90043e-08 9.33013L4.47556e-07 0.669872L6 5Z' fill='white'/%3E%3C/svg%3E");
 }
 
-.rent__plan--gallery {
+.general__plan--gallery {
     max-width: 800px
 }
 
-.rent__plan--gallery .swiper-pagination {
+.general__plan--gallery .swiper-pagination {
     display: none;
 }
 
-.rent__plan--gallery .swiper-button-next, .rent__plan--gallery .swiper-button-prev {
+.general__plan--gallery .swiper-button-next, .general__plan--gallery .swiper-button-prev {
     top: initial;
     bottom: 0;
     left: 0;
@@ -2250,29 +2251,29 @@ section .trees__container {
     margin: 0 auto;
 }
 
-.rent__plan--gallery .swiper-button-prev {
+.general__plan--gallery .swiper-button-prev {
     right: 60px;
 }
 
-.rent__plan--gallery .swiper-button-next {
+.general__plan--gallery .swiper-button-next {
 
     left: 60px;
 }
-.rent__plan--gallery img{
+.general__plan--gallery img{
     width: 100%;
 }
-.rent__plan--gallery .swiper-button-next, .rent__plan--gallery .swiper-button-prev{
+.general__plan--gallery .swiper-button-next, .general__plan--gallery .swiper-button-prev{
     width: initial;
     height: initial;
 }
-.rent__plan--gallery .swiper-button-next:after {
+.general__plan--gallery .swiper-button-next:after {
     background-image: url("data:image/svg+xml,%3Csvg width='49' height='48' viewBox='0 0 49 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M47.75 24C47.75 11.2975 37.4525 1 24.75 1C12.0475 1 1.75 11.2975 1.75 24C1.75 36.7025 12.0475 47 24.75 47C37.4525 47 47.75 36.7025 47.75 24Z' stroke='%23244E85' stroke-width='2'/%3E%3Cg clip-path='url(%23clip0_160_13)'%3E%3Cpath d='M16.072 24.464H34.0028' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M28.6663 19.2172L34.2163 24.8234' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M28.6663 29.7829L34.2163 24.1766' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_160_13'%3E%3Crect width='18.5' height='11.5' fill='white' transform='translate(16.25 18.75)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
 content: "";
     width: 49px;
     height: 48px;
     background-repeat: no-repeat;
 }
-.rent__plan--gallery .swiper-button-prev:after {
+.general__plan--gallery .swiper-button-prev:after {
     background-image: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.999998 24C0.999997 36.7025 11.2974 47 24 47C36.7025 47 47 36.7025 47 24C47 11.2974 36.7025 0.999999 24 0.999998C11.2975 0.999997 0.999999 11.2974 0.999998 24Z' stroke='%23244E85' stroke-width='2'/%3E%3Cpath d='M32.6777 24.536L14.747 24.536' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M20.0835 29.7828L14.5335 24.1766' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M20.0835 19.2171L14.5335 24.8234' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3C/svg%3E%0A");  content: "";
     width: 48px;
     height: 48px;
@@ -2280,78 +2281,105 @@ content: "";
 }
 
 
-.rent__plan--gallery .swiper {
+.general__plan--gallery .swiper {
     padding-bottom: 100px;
 }
 @media (max-width: 1400px) {
-    .rent__plan--gallery{
+    .general__plan--gallery{
        max-width: 500px;
     }
 }
 @media (max-width: 1100px) {
-    .rent__main--container {
+    .general__main--container {
         flex-direction: column;
     }
-    .rent__main--title{
+    .general__main--title{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
     }
-    .rent__main--title h1{
+    .general__main--title h1{
         text-align: center;
         font-size: 45px;
     }
-    .rent__main--title p{
+    .general__main--title p{
         font-size: 18px;
         margin-top: 20px;
     }
-    .rent__main{
+    .general__main{
         margin-top: -129px;
     }
-    .rent__main--container{
+    .general__main--container{
         padding: 150px 30px 300px;
     }
-    .rent__plan--container{
+    .general__plan--container{
         flex-direction: column;
         align-items: stretch;
     }
-    .rent__plan--gallery .swiper-pagination{
+    .general__plan--gallery .swiper-pagination{
         display: block;
         bottom: 40px !important;
     }
-    .rent__plan--gallery .swiper-button-prev,
-    .rent__plan--gallery .swiper-button-next{
+    .general__plan--gallery .swiper-button-prev,
+    .general__plan--gallery .swiper-button-next{
         display: none;
     }
-    .rent__plan--gallery{
+    .general__plan--gallery{
         max-width: initial;
     }
-    .rent__plan--gallery h2{
+    .general__plan--gallery h2{
         text-align: center;
         font-size: 45px;
         margin-bottom: 20px;
     }
-    .rent__plan--gallery .swiper{
+    .general__plan--gallery .swiper{
         padding: 0;
     }
-    .rent__plan--gallery .swiper-wrapper{
+    .general__plan--gallery .swiper-wrapper{
         margin-bottom: 80px;
     }
-    .rent___plan--about p{
+    .general___plan--about p{
         max-width: initial;
         font-size: 18px;
     }
-    .rent__about--place, .rent__about--infrastructure{
+    .general__about--place, .general__about--infrastructure{
         border-radius: initial;
         border: none;
         border-top: 1px solid #244E85;
         border-bottom: 1px solid #244E85;
         margin: 0 -30px 100px;
     }
-    .rent__about--place{
+    .general__about--place{
         margin-bottom: 0;
     }
-    .rent__plan{
+    .general__plan{
         padding: 80px 0;
     }
+    .general__place--container{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 90px 30px 300px;
+    }
+    .general__place--home{
+        margin-bottom: 70px;
+    }
+    .general__place--img{
+        padding: 24px 30px 50px;
+        margin: 0 -30px 0;
+    }
+    .general__place--home h2{
+        font-size: 45px;
+        text-align: center;
+    }
+    .general__place--home p{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+.main__mobile{
+    display: none;
+}
+.main__container{
+    display: flex;
 }
