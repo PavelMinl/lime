@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css">
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
 </head>
 <body>
 <section class="header">
-    <div class="header__top">
+    <div class="header__top box">
         <a href="index.html"> <img class="header__logo" src="img/logo.png"></a>
         <div class="header__right">
             <div class="header__social">
@@ -56,7 +54,7 @@
                             <a>Технологии строительства</a>
                         </li>
                         <li>
-                            <a>Генплан</a>
+                            <a href="genplan.html">Генплан</a>
                         </li>
                         <li>
                             <a href="choice.html">Выбрать дом</a>
@@ -65,7 +63,7 @@
                             <a href="construction.html">Ход строительства</a>
                         </li>
                         <li>
-                            <a>Аренда техники</a>
+                            <a href="rent.html">Аренда техники</a>
                         </li>
                         <li>
                             <a href="developer.html">О застройщике</a>
@@ -99,7 +97,7 @@
         </nav>
     </div>
     <div class="header__navigate">
-        <div class="header__navigate--link">
+        <div class="header__navigate--link box">
             <a href="#">Наши проекты</a>
             <a href="#">Технологии строительства</a>
             <a class="active" href="#">Генплан</a>
@@ -130,7 +128,7 @@
             </div>
         </div>
     </div>
-    <div class="project__our">
+    <div class="project__our box">
         <h2>Наши проекты</h2>
         <div class="project__our--container">
         <div class="project__gallery">
@@ -258,7 +256,7 @@
         </div>
         </div>
     </div>
-    <div class="project__communications">
+    <div class="project__communications box">
         <h2>Коммуникации</h2>
         <div class="communications__container">
             <div class="communications__list">
@@ -306,7 +304,7 @@
         </div>
     </div>
     <div class="material">
-        <h2>Только проверенные материалы</h2>
+        <h2 class="box">Только проверенные материалы</h2>
         <div class="material__container">
             <div class="material__img">  <img src="img/material.png"></div>
             <div class="material__parameters">
@@ -359,6 +357,8 @@
 </section>
 <script defer src="js/jquery.min.js"></script>
 <script defer src="js/swiper-bundle.min.js"></script>
+<script defer src="js/project/script.js"></script>
 <script defer src="js/script.js"></script>
+
 </body>
 </html>
