@@ -1,14 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper(".project_swiper", {
-        loop: true,
+    const swiper = new Swiper(".build_swiper", {
         spaceBetween: 10,
-        slidesPerView: 5,
+        slidesPerView: 2,
         freeMode: true,
         watchSlidesProgress: true,
 
     });
-    var swiper2 = new Swiper(".project_swiper--2", {
-        loop: true,
+    var swiper2 = new Swiper(".build_swiper--2", {
         spaceBetween: 10,
         navigation: {
             nextEl: ".swiper-button-next",

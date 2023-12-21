@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <body>
 <section class="header">
@@ -49,7 +50,7 @@
                             <a href="project.html">Наши проекты</a>
                         </li>
                         <li>
-                            <a>Технологии строительства</a>
+                            <a href="#build">Технологии строительства</a>
                         </li>
                         <li>
                             <a href="genplan.html">Генплан</a>
@@ -97,7 +98,7 @@
     <div class="header__navigate">
         <div class="header__navigate--link box">
             <a href="project.html">Наши проекты</a>
-            <a href="#">Технологии строительства</a>
+            <a href="#build">Технологии строительства</a>
             <a class="active" href="genplan.html">Генплан</a>
             <a href="#">Инфраструктура</a>
             <a href="choice.html">Выбрать дом</a>
@@ -121,7 +122,7 @@
                     <p>Альтернатива городскому жилью</p>
                 </div>
                 <div class="main__title--meet">
-                    <p>Ознакомиться с домами</p>
+                    <a>Ознакомиться с домами</a>
                 </div>
                 <div class="main__mobile">
                     <img src="img/main_home_mobile.png">
@@ -190,10 +191,30 @@
         </div>
         </div>
     </div>
-    <div class="build box">
+    <div id="build" class="build box">
         <h2>Технология строительства</h2>
-        <div class="swiper swiper_build">
-            <img src="img/main_build.png">
+        <div thumbsSlider="" class="swiper build_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/project_home.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/project_home.png">
+                </div>
+            </div>
+        </div>
+        <div class="swiper build_swiper--2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/main_build.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/main_build2.png">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </div>
     <div class="protection">
@@ -213,6 +234,43 @@
                 <img src="img/main_play.png">
                 <p>посмотрите как строится ваш дом</p>
             </div>
+            </div>
+        </div>
+    </div>
+    <div class="construction__gallery main__gallery box">
+        <h2>Этапы строительства</h2>
+        <div class="gallery">
+            <img class="minimized" src="img/gallery_img.png">
+            <img class="minimized" src="img/gallery_img.png">
+            <img class="minimized" src="img/gallery_img.png">
+            <img class="minimized" src="img/gallery_img.png">
+            <img class="minimized" src="img/gallery_img.png">
+            <img class="minimized" src="img/gallery_img.png">
+            <img class="minimized" src="img/gallery_img.png">
+            <img class="minimized" src="img/gallery_img.png">
+            <img class="minimized" src="img/gallery_img.png">
+            <img class="minimized"  src="img/gallery_img.png">
+        </div>
+    </div>
+    <div class="cottage box">
+        <div class="cottage__header">
+            <h2>О коттеджах</h2>
+            <a href="#">Ознакомиться с домами</a>
+        </div>
+        <div>
+            <div>
+                <p>Дома 140 кв.м</p>
+                <p>Терасса открытая, которую можно застеклить </p>
+                <p>6 соток участки</p>
+                <p>Панорамное остекление на первом и втором этажах</p>
+                <p>У каждого домовладения есть парковка на 2 а/м , откатные ворота</p>
+            </div>
+            <div>
+                <p>140м</p>
+                <p>Панорама</p>
+                <p>Терасса</p>
+                <p>6 соток</p>
+                <p>Парковка</p>
             </div>
         </div>
     </div>
@@ -249,6 +307,9 @@
         </div>
     </div>
 </section>
+<script defer src="js/jquery.min.js"></script>
+<script defer src="js/swiper-bundle.min.js"></script>
+<script defer src="js/main/script.js"></script>
 <script defer src="js/script.js"></script>
 </body>
 </html>
