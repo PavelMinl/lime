@@ -2079,7 +2079,7 @@ section .trees__container {
 }
 
 .general__main {
-    background-image: url("/img/general_main.png");
+    background-image: url("../img/general_main.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -2160,7 +2160,7 @@ section .trees__container {
 }
 
 .general__place {
-    background-image: url("/img/general_region.png");
+    background-image: url("../img/general_region.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
