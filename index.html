@@ -355,7 +355,7 @@
                                 <img src="img/layout_plan.png">
                             </div>
                             <div class="swiper-slide">
-                                <span  class="layout__slide--number">2</span>
+                                <span class="layout__slide--number">2</span>
                                 <img src="img/layout_plan.png">
                             </div>
                         </div>
@@ -364,7 +364,11 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="swiper-slide__container">
-                                    <span class="layout__point"></span>
+                                    <span id="kitchen" class="layout__point"></span>
+                                    <span id="living_room" class="layout__point"></span>
+                                    <span id="pantry" class="layout__point"></span>
+                                    <span id="bedroom" class="layout__point"></span>
+                                    <span id="bathroom" class="layout__point"></span>
                                     <img src="img/layout_plan.png">
                                 </div>
                             </div>
@@ -441,123 +445,101 @@
     <div id="infrastructure" class="infrastructure">
         <div class="infrastructure__container box">
             <h2>Инфраструктура и транспортная доступность</h2>
+            <div class="infrastructure__mkad">
+                <img src="img/in_mkad-bk.png">
+                <a href="#">2 км до МКАД</a>
+                <div class="infrastructure__mkad--container">
+                    <div class="infrastructure__box  in_ic-a in_metro-2">
+                        <div class="infrastructure__box--conteiner in_ic-title">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_metro-icon.png">
+                            <p>Метро</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_garden">
+                        <div class="infrastructure__box--conteiner in_ic-title">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_garden-icon.png">
+                            <p>Детский сад</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_garden-2">
+                        <div class="infrastructure__box--conteiner in_ic-title">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_garden-icon.png">
+                            <p>Детский сад</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_place">
+                        <div class="infrastructure__box--conteiner in_ic-title ">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_place-icon.png">
+                            <p>Детская площадка</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_coffee">
+                        <div class="infrastructure__box--conteiner in_ic-title ">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_coffee-icon.png">
+                            <p>Кофейня</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_jk">
+                        <div class="infrastructure__box--conteiner in_ic-title ">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_jk-icon.png">
+                            <p>ЖК</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_park-2">
+                        <div class="infrastructure__box--conteiner in_ic-title ">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_park-icon.png">
+                            <p>Парк</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_home">
+                        <div class="infrastructure__box--conteiner in_ic-title ">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_home-icon.png">
+                            <p>Ваш Дом</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_pharmacy">
+                        <div class="infrastructure__box--conteiner in_ic-title ">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_pharmacy-icon.png">
+                            <p>Аптека</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_shop">
+                        <div class="infrastructure__box--conteiner in_ic-title ">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_shop-icon.png">
+                            <p>Магазин</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_salon">
+                        <div class="infrastructure__box--conteiner in_ic-title ">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_salon-icon.png">
+                            <p>Салон</p>
+                        </div>
+                    </div>
+                    <div class="infrastructure__box  in_ic-a in_zoo">
+                        <div class="infrastructure__box--conteiner in_ic-title ">
+                            <a href="#" class="invisible__link"></a>
+                            <img src="img/in_zoo-icon.png">
+                            <p>Зоопарк</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="infrastructure__youtube">
                 <a href="#" class="invisible__link"></a>
                 <img src="img/main_play.png">
                 <p>посмотреть обзор местности</p>
             </div>
-            <div class="infrastructure__box  in_ic-a in_metro">
-                <div class="infrastructure__box--conteiner in_ic-title">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Метро</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a in_garden">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_garden-icon.png">
-                    <p>Детский сад</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a in_garden2">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_garden-icon.png">
-                    <p>Детский сад</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a in_metro">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Детская площадка</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Кофейня</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Парк</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>ЖК</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Ваш дом</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Магазин</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Аптека</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Салон</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Парк</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Школа</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>Баня</p>
-                </div>
-            </div>
-            <div class="infrastructure__box  in_ic-a">
-                <div class="infrastructure__box--conteiner in_ic-title in_metro">
-                    <a href="#" class="invisible__link"></a>
-                    <img src="img/in_metro-icon.png">
-                    <p>метро</p>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div class="infrastructure__mkad">
-            <img src="img/in_mkad-bk.png">
-            <a href="#">2 км до МКАД</a>
         </div>
         <div class="infrastructure__water">
             <div class="infrastructure__water--container">
@@ -567,6 +549,41 @@
                         <a class="invisible__link" href="#"></a>
                         <img src="img/in_fishing-icon.png">
                         <p href="#">Рыбалка</p>
+                    </div>
+                </div>
+                <div class="infrastructure__box  in_ic-a in_metro">
+                    <div class="infrastructure__box--conteiner in_ic-title">
+                        <a href="#" class="invisible__link"></a>
+                        <img src="img/in_metro-icon.png">
+                        <p>Метро</p>
+                    </div>
+                </div>
+                <div class="infrastructure__box  in_ic-a in_spa">
+                    <div class="infrastructure__box--conteiner in_ic-title ">
+                        <a href="#" class="invisible__link"></a>
+                        <img src="img/in_spa-icon.png">
+                        <p>Баня</p>
+                    </div>
+                </div>
+                <div class="infrastructure__box  in_ic-a in_school">
+                    <div class="infrastructure__box--conteiner in_ic-title">
+                        <a href="#" class="invisible__link"></a>
+                        <img src="img/in_school-icon.png">
+                        <p>Школа</p>
+                    </div>
+                </div>
+                <div class="infrastructure__box  in_ic-a in_park">
+                    <div class="infrastructure__box--conteiner in_ic-title">
+                        <a href="#" class="invisible__link"></a>
+                        <img src="img/in_park-icon.png">
+                        <p>Парк</p>
+                    </div>
+                </div>
+                <div class="infrastructure__box  in_ic-a in_garden-3">
+                    <div class="infrastructure__box--conteiner in_ic-title ">
+                        <a href="#" class="invisible__link"></a>
+                        <img src="img/in_garden-icon.png">
+                        <p>Детский сад</p>
                     </div>
                 </div>
             </div>
