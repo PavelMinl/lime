@@ -2863,18 +2863,25 @@ background-image: linear-gradient(0deg, rgba(11, 29, 45, 0.60) 17.28%, rgba(0, 0
 }
 
 .home__material {
-    padding: 0 0 120px 0;
+    padding: 50px 0 120px 0;
 }
 
 .home__material .material__parameters p {
     font-weight: 700;
 }
 
-.home__parameters {
+.home__parameters .home__material--container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-
+.home__parameters--list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px 10px;
+    justify-content: flex-end;
+}
 .home__parameters--list p {
     color: #2B2B2B;
     font-size: 30px;
@@ -3136,7 +3143,9 @@ background-image: linear-gradient(0deg, rgba(11, 29, 45, 0.60) 17.28%, rgba(0, 0
 .location__map img {
     width: 100%;
 }
-
+.home__material--mobile{
+    display: none;
+}
 .location__map--place {
     display: none;
 }
@@ -3306,8 +3315,17 @@ background-image: linear-gradient(0deg, rgba(11, 29, 45, 0.60) 17.28%, rgba(0, 0
     .location__map img {
         width: 100%;
     }
+    .cottage__header h2{
+        font-size: 45px;
+    }
 }
 @media (max-width: 1000px) {
+    .home__material--mobile{
+        display: block;
+        margin-left: -30px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
     .cottage{
         background-position-y: 200px;
     }
@@ -3324,6 +3342,19 @@ background-image: linear-gradient(0deg, rgba(11, 29, 45, 0.60) 17.28%, rgba(0, 0
 
 
 @media (max-width: 768px) {
+    .build h2{
+        font-size: 45px;
+    }
+    .cottage__plus p{
+        font-size: 18px;
+        max-width: 300px;
+    }
+    .home__parameters--list p{
+        font-size: 18px;
+    }
+    .home__parameters--list img{
+        max-width: 40px;
+    }
     .main__title--header p:first-child,
     .main__title--header p {
         font-size: 18px;
