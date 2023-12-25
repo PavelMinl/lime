@@ -40,3 +40,19 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper(".layout_photo-swiper", {
+        effect: "cards",
+        cardsEffect: {                  // added
+            perSlideOffset: 10,         // added(slide gap(px)
+            perSlideRotate: 0,         // added(Rotation angle of second and subsequent slides
+            rotate: true,               // added(Rotation presence of second and subsequent slides(true/false)
+            slideShadows: false,        // added(Shadow presence of second and subsequent slides(true/false)
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+
+    });
+});
