@@ -2820,6 +2820,7 @@ background-image: linear-gradient(0deg, rgba(11, 29, 45, 0.60) 17.28%, rgba(0, 0
 
 .layout__photo {
     margin-left: 40px;
+    max-width: 650px;
 }
 
 .layout__plan .layout_swiper--2 img{
@@ -2905,9 +2906,6 @@ background-image: linear-gradient(0deg, rgba(11, 29, 45, 0.60) 17.28%, rgba(0, 0
 .layout_swiper--2{
     padding-top: 150px !important;
     margin-top: -100px;
-}
-.layout__photo--img{
-    margin-top: 80px;
 }
 .layout_swiper--2 .swiper-button-next:after {
     background-image: url("data:image/svg+xml,%3Csvg width='49' height='48' viewBox='0 0 49 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M47.75 24C47.75 11.2975 37.4525 1 24.75 1C12.0475 1 1.75 11.2975 1.75 24C1.75 36.7025 12.0475 47 24.75 47C37.4525 47 47.75 36.7025 47.75 24Z' stroke='white' stroke-width='2'/%3E%3Cg clip-path='url(%23clip0_224_1471)'%3E%3Cpath d='M16.0721 24.4639H34.0029' stroke='white' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M28.6663 19.2173L34.2163 24.8235' stroke='white' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M28.6663 29.783L34.2163 24.1768' stroke='white' stroke-width='1.25' stroke-miterlimit='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_224_1471'%3E%3Crect width='18.5' height='11.5' fill='white' transform='translate(16.25 18.75)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
