@@ -2550,6 +2550,15 @@ section .trees__container {
 .infrastructure__img--1200 {
     display: none;
 }
+#ar-prompt {
+    display: none;
+}
+
+/* Делаем 3D плеер на весь браузер */
+model-viewer {
+    width: 600px;
+    height: 500px;
+}
 @media (max-width: 1400px) {
     .choice__img--photo{
         max-width: 600px;
@@ -4288,6 +4297,9 @@ section .trees__container {
     .header__top{
         justify-content: flex-end;
         padding-top: 15px;
+    }
+    .general__place--img model-viewer{
+        width: 400px;
     }
 }
 @media (max-width: 550px) {
