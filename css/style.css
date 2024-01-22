@@ -521,11 +521,11 @@ section .trees__container {
 
 .trees__contact h1 {
     color: #3A3A3A;
-    font-size: 80px;
+    font-size: 56px;
     font-style: normal;
     font-weight: 400;
     line-height: 113.2%;
-    margin-bottom: 65px;
+    margin-bottom: 45px;
     white-space: nowrap;
 }
 
@@ -533,6 +533,7 @@ section .trees__container {
     display: flex;
     justify-content: space-between;
     padding: 100px 30px;
+    align-items: center;
 }
 
 .contact__info {
@@ -541,17 +542,17 @@ section .trees__container {
 
 .contact__info p {
     color: #2B2B2B;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .contact__info span,
 .contact__info a {
     color: #2B2B2B;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -572,7 +573,7 @@ section .trees__container {
 }
 
 .contact__social > div {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .contact__social > div:first-child {
@@ -581,7 +582,7 @@ section .trees__container {
 
 .contact__social > div a {
     color: #2B2B2B;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -608,7 +609,7 @@ section .trees__container {
 .choice__container {
     display: flex;
     justify-content: space-between;
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -623,7 +624,7 @@ section .trees__container {
 .choice__img {
     margin-right: -30px;
     margin-top: 50px;
-    min-height: 700px;
+    min-height: 600px;
 }
 
 .choice__img img {
@@ -633,7 +634,7 @@ section .trees__container {
 
 .conditions h1 {
     color: #3A3A3A;
-    font-size: 80px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: 113.2%;
@@ -646,18 +647,18 @@ section .trees__container {
 
 .conditions p {
     color: #3A3A3A;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
-    margin: 50px 0 40px;
+    margin: 30px 0 20px;
 }
 
 .conditions button {
     color: #FFF;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     border-radius: 10px;
     background: #244E85;
-    padding: 18px 32px;
+    padding: 12px 22px;
     z-index: 11;
 }
 
@@ -686,14 +687,14 @@ section .trees__container {
 
 .company__logo p {
     color: #404040;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     margin-left: 20px;
 }
 
 .company__parameters--list h1 {
     color: #3A3A3A;
-    font-size: 72px;
+    font-size: 56px;
     font-weight: 400;
     line-height: 113.2%;
     margin-bottom: 25px;
@@ -714,9 +715,14 @@ section .trees__container {
 .company__parameters--jobs > div p {
     max-width: 240px;
     color: #3A3A3A;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
     margin-top: 10px;
+}
+
+.company__parameters--img {
+    display: flex;
+    align-items: flex-end;
 }
 
 .company__parameters--jobs {
@@ -724,12 +730,12 @@ section .trees__container {
 }
 
 .team {
-    padding-bottom: 250px;
+    padding-bottom: 150px;
 }
 
 .team h2 {
     color: #3A3A3A;
-    font-size: 80px;
+    font-size: 56px;
     font-style: normal;
     font-weight: 400;
     line-height: 113.2%;
@@ -737,9 +743,10 @@ section .trees__container {
 
 .team > p {
     color: #3A3A3A;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
     margin: 20px 0 70px;
+    max-width: 500px;
 }
 
 .team__lists {
@@ -765,30 +772,31 @@ section .trees__container {
 
 .team__list--name p {
     color: #FFF;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 8px;
 }
 
 .team__list--name span {
     color: #FFF;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
 }
 
 .partner h2 {
     color: #3A3A3A;
-    font-size: 80px;
+    font-size: 56px;
     font-weight: 400;
     line-height: 113.2%;
 }
 
 .partner > p {
     color: #3A3A3A;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 70px;
     margin-top: 15px;
+    max-width: 400px;
 }
 
 .partner__lists {
@@ -810,14 +818,14 @@ section .trees__container {
 
 .partner__list p {
     color: #2B2B2B;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     white-space: nowrap;
 }
 
 .partner__list span {
     color: #2B2B2B;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
     max-width: 350px;
@@ -830,7 +838,7 @@ section .trees__container {
 
 .partner__list--photo {
     display: flex;
-    min-width: 300px;
+    min-width: 210px;
     margin-right: 30px;
     justify-content: flex-start;
 }
@@ -858,7 +866,7 @@ section .trees__container {
 
 .construction__main h1 {
     color: #FFF;
-    font-size: 80px;
+    font-size: 56px;
     font-weight: 400;
     line-height: 113.2%; /* 90.56px */
     max-width: 760px;
@@ -867,15 +875,15 @@ section .trees__container {
 
 .construction__main p {
     color: #FFF;
-    font-size: 30px;
+    font-size: 21px;
     font-weight: 700;
 }
 
 .construction__main span {
     color: #FFF;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
-    max-width: 270px;
+    max-width: 190px;
     display: inline-block;
 }
 
@@ -904,12 +912,12 @@ section .trees__container {
     color: #3B3A3A;
     font-size: 56px;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .construction__video h2 {
     color: #3B3A3A;
-    font-size: 80px;
+    font-size: 56px;
     font-weight: 400;
 }
 
@@ -925,7 +933,7 @@ section .trees__container {
 }
 
 .construction__gallery {
-    padding: 60px 30px 0;
+    padding: 40px 30px 0;
 }
 
 .gallery img {
@@ -1033,7 +1041,7 @@ section .trees__container {
 }
 
 .project__main--container {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
     display: flex;
@@ -1044,19 +1052,19 @@ section .trees__container {
 .project__video--play p {
     max-width: 220px;
     color: #FFF;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .project__main--title p {
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .project__main--title h1 {
     color: #FFF;
-    font-size: 80px;
+    font-size: 64px;
     font-weight: 400;
     line-height: 113.2%;
     max-width: 760px;
@@ -1082,40 +1090,42 @@ section .trees__container {
 
 .project__our > h2 {
     color: #101010;
-    font-size: 80px;
+    font-size: 64px;
     font-weight: 400;
     margin-bottom: 8px;
 }
 
 .project__gallery--choice img {
     margin-right: 10px;
+    width: 60px;
 }
 
 .project__gallery--choice {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .project__about--price p {
     color: #1B1B1B;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 5px;
 }
 
 .project__about--price span {
     color: #1B1B1B;
-    font-size: 60px;
+    font-size: 42px;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .project__about--price button {
     color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     border-radius: 10px;
     background: #244E85;
-    padding: 15px 25px;
+    padding: 10px 20px;
 }
 
 .project__our {
@@ -1125,9 +1135,9 @@ section .trees__container {
 .project__about--technology h2,
 .project__about--property h2 {
     color: #000;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .property__lists {
@@ -1143,15 +1153,16 @@ section .trees__container {
 
 .property__lists p {
     color: #000;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 101.682%;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    white-space: nowrap;
 }
 
 .property__lists span {
     color: #000;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 20.7px; /* 103.5% */
     display: inline-block;
@@ -1171,15 +1182,15 @@ section .trees__container {
 
 .technology__container p {
     color: #1B1B1B;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 20.7px;
-    margin-bottom: 10px;
+    line-height: 14.49px;
+    margin-bottom: 8px;
 }
 
 .technology__container span {
     color: #1B1B1B;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 5px;
     display: block
@@ -1187,7 +1198,7 @@ section .trees__container {
 
 .project__communications h2 {
     color: #101010;
-    font-size: 80px;
+    font-size: 56px;
     font-weight: 400;
     margin-bottom: 55px;
 }
@@ -1210,13 +1221,13 @@ section .trees__container {
 
 .communications__list p {
     color: #2B2B2B;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .communications__list span {
     color: #2B2B2B;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -1237,7 +1248,7 @@ section .trees__container {
 .material__parameters > div {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .material__parameters > div:last-child {
@@ -1246,6 +1257,7 @@ section .trees__container {
 
 .material__parameters {
     margin-left: -120px;
+    margin-top: 40px;
 }
 
 .material__img {
@@ -1261,7 +1273,7 @@ section .trees__container {
 
 .material__parameters > div p {
     color: #2B2B2B;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     max-width: 400px;
 }
@@ -1279,7 +1291,7 @@ section .trees__container {
 
 .material h2 {
     color: #101010;
-    font-size: 80px;
+    font-size: 56px;
     font-weight: 400;
     margin-bottom: 50px;
 }
@@ -1289,8 +1301,8 @@ section .trees__container {
 }
 
 .project__gallery--slider .swiper {
-    max-width: 780px;
-    width: 80%;
+    max-width: 490px;
+    width: 100%;
     margin: 0 !important;
 }
 
@@ -1334,9 +1346,10 @@ section .trees__container {
 .project__gallery--slider .swiper-button-next:after, .project__gallery--slider .swiper-rtl .swiper-button-prev:after {
     content: " " !important;
     background-image: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M47 24C47 11.2975 36.7025 1 24 1C11.2975 1 1 11.2975 1 24C1 36.7025 11.2975 47 24 47C36.7025 47 47 36.7025 47 24Z' stroke='white' stroke-width='2'/%3E%3Cg clip-path='url(%23clip0_160_33)'%3E%3Cpath d='M15.3223 24.4641H33.253' stroke='white' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M27.9165 19.2172L33.4665 24.8235' stroke='white' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M27.9165 29.7828L33.4665 24.1766' stroke='white' stroke-width='1.25' stroke-miterlimit='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_160_33'%3E%3Crect width='18.5' height='11.5' fill='white' transform='translate(15.5 18.75)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
-    width: 48px !important;
-    height: 48px;
+    width: 33px !important;
+    height: 33px;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .project__gallery--slider .swiper-button-next, .project__gallery--slider .swiper-button-prev {
@@ -1347,9 +1360,10 @@ section .trees__container {
 .project__gallery--slider .swiper-button-prev:after, .project__gallery--slider .swiper-rtl .swiper-button-next:after {
     content: " " !important;
     background-image: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.999998 24C0.999997 36.7025 11.2974 47 24 47C36.7025 47 47 36.7025 47 24C47 11.2974 36.7025 0.999999 24 0.999998C11.2975 0.999997 0.999999 11.2974 0.999998 24Z' stroke='white' stroke-width='2'/%3E%3Cg clip-path='url(%23clip0_160_39)'%3E%3Cpath d='M34.1777 24.5359L16.247 24.536' stroke='white' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M21.5835 29.7828L16.0335 24.1765' stroke='white' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M21.5835 19.2172L16.0335 24.8234' stroke='white' stroke-width='1.25' stroke-miterlimit='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_160_39'%3E%3Crect width='18.5' height='11.5' fill='white' transform='translate(34 30.25) rotate(180)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-    width: 48px !important;
-    height: 48px;
+    width: 33px !important;
+    height: 33px;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .project__gallery--slider .swiper-pagination {
@@ -1375,21 +1389,21 @@ section .trees__container {
 
 .general__main--title p {
     color: #FFF;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .general__main--title h1 {
     color: #FFF;
-    font-size: 70px;
+    font-size: 64px;
     font-weight: 400;
     line-height: 113.2%;
 }
 
 .general___plan--about p {
     color: #2B2B2B;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     max-width: 440px;
 }
@@ -1397,7 +1411,7 @@ section .trees__container {
 .general___plan--about h3 {
     color: #2B2B2B;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
     position: absolute;
     top: -25px;
@@ -1411,9 +1425,9 @@ section .trees__container {
 
 .general___plan--about button {
     color: #FFF;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 10px;
     background: #244E85;
     width: fit-content;
@@ -1435,7 +1449,7 @@ section .trees__container {
 
 .general__plan--gallery h2 {
     color: #2B2B2B;
-    font-size: 70px;
+    font-size: 64px;
     font-weight: 400;
 }
 
@@ -1443,7 +1457,7 @@ section .trees__container {
 .general__about--infrastructure {
     border-radius: 53px;
     border: 1px solid #244E85;
-    padding: 55px 40px;
+    padding: 35px 30px;
     position: relative;
     margin-bottom: 100px;
 }
@@ -1465,13 +1479,13 @@ section .trees__container {
 
 .general__place--home p {
     color: #FFF;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .general__place--home h2 {
     color: #FFF;
-    font-size: 80px;
+    font-size: 64px;
     font-weight: 400;
 }
 
@@ -1479,10 +1493,12 @@ section .trees__container {
     backdrop-filter: blur(10px);
     padding: 130px 30px;
     margin: 0 -30px 0 0;
+    max-width: 650px;
 }
 
 .general__plan--gallery {
     margin-right: 30px;
+    max-width: 700px
 }
 
 .general__swiper img {
@@ -1519,9 +1535,6 @@ section .trees__container {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='10' viewBox='0 0 6 10' fill='none'%3E%3Cpath d='M6 5L6.90043e-08 9.33013L4.47556e-07 0.669872L6 5Z' fill='white'/%3E%3C/svg%3E");
 }
 
-.general__plan--gallery {
-    max-width: 800px
-}
 
 .general__plan--gallery .swiper-pagination {
     display: none;
@@ -1556,22 +1569,24 @@ section .trees__container {
 .general__plan--gallery .swiper-button-next:after {
     background-image: url("data:image/svg+xml,%3Csvg width='49' height='48' viewBox='0 0 49 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M47.75 24C47.75 11.2975 37.4525 1 24.75 1C12.0475 1 1.75 11.2975 1.75 24C1.75 36.7025 12.0475 47 24.75 47C37.4525 47 47.75 36.7025 47.75 24Z' stroke='%23244E85' stroke-width='2'/%3E%3Cg clip-path='url(%23clip0_160_13)'%3E%3Cpath d='M16.072 24.464H34.0028' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M28.6663 19.2172L34.2163 24.8234' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M28.6663 29.7829L34.2163 24.1766' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_160_13'%3E%3Crect width='18.5' height='11.5' fill='white' transform='translate(16.25 18.75)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
     content: "";
-    width: 49px;
-    height: 48px;
+    width: 40px;
+    height: 39px;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .general__plan--gallery .swiper-button-prev:after {
     background-image: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.999998 24C0.999997 36.7025 11.2974 47 24 47C36.7025 47 47 36.7025 47 24C47 11.2974 36.7025 0.999999 24 0.999998C11.2975 0.999997 0.999999 11.2974 0.999998 24Z' stroke='%23244E85' stroke-width='2'/%3E%3Cpath d='M32.6777 24.536L14.747 24.536' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M20.0835 29.7828L14.5335 24.1766' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3Cpath d='M20.0835 19.2171L14.5335 24.8234' stroke='%23244E85' stroke-width='1.25' stroke-miterlimit='10'/%3E%3C/svg%3E%0A");
     content: "";
-    width: 48px;
-    height: 48px;
+    width: 38px;
+    height: 38px;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
 .general__plan--gallery .swiper {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .main__mobile {
@@ -2535,8 +2550,13 @@ section .trees__container {
 .infrastructure__img--1200 {
     display: none;
 }
-
+@media (max-width: 1400px) {
+    .choice__img--photo{
+        max-width: 600px;
+    }
+}
 @media (max-width: 1200px) {
+
     .box {
         max-width: 800px;
         margin: 0 auto;
@@ -2998,28 +3018,346 @@ section .trees__container {
         font-size: 10px;
         padding: 3px 20px 3px 40px;
     }
-}
 
+    .general__main {
+        padding: 150px 0;
+    }
+
+    .general__main--title p {
+        font-size: 16px;
+    }
+
+    .general__main--title h1 {
+        font-size: 44px;
+    }
+
+    .general__plan--gallery {
+        max-width: 470px;
+    }
+
+    .general__plan--gallery h2 {
+        font-size: 44px;
+    }
+
+    .general___plan--about h3 {
+        font-size: 16px;
+        top: -10px;
+        padding: 0 20px;
+    }
+
+    .general___plan--about p {
+        font-size: 12px;
+    }
+
+    .general___plan--about button {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+
+    .general__about--place, .general__about--infrastructure {
+        padding: 30px 22px;
+        border-radius: 30px;
+    }
+
+    .general__place--home h2 {
+        font-size: 40px;
+    }
+
+    .general__place--home p {
+        font-size: 16px;
+    }
+
+    .general__place--img {
+        max-width: 500px;
+    }
+
+    .general__main {
+        background-image: url(../img/general_main-1200.png);
+    }
+
+    .general__place {
+        background-image: url(../img/general_region-mobile.png);
+    }
+
+    .contact__container {
+        padding: 100px 30px 150px;
+    }
+
+    .trees__contact h1 {
+        font-size: 40px;
+    }
+
+    .contact__info p {
+        font-size: 14px;
+    }
+
+    .contact__info span, .contact__info a {
+        font-size: 14px;
+    }
+
+    .trees__maps {
+        max-width: 380px;
+    }
+
+    .contact__social > div a {
+        font-size: 14px;
+        margin-left: 7px;
+    }
+
+    .contact__social > div img {
+        width: 23px;
+    }
+
+    .company__parameters--list h1 {
+        font-size: 40px;
+    }
+
+    .company__parameters--jobs > div p {
+        font-size: 12px;
+    }
+
+    .company__logo p {
+        font-size: 16px;
+    }
+
+    .company__logo img {
+        width: 100px;
+    }
+
+    .team h2 {
+        font-size: 39px;
+    }
+
+    .team > p {
+        font-size: 12px;
+        margin: 10px 0 40px;
+    }
+
+    .team__list--name p {
+        font-size: 12px;
+    }
+
+    .team__list--name span {
+        font-size: 12px;
+    }
+    .team__list--name{
+        bottom: 15px;
+        left: 15px;
+    }
+    .partner h2{
+        font-size: 40px;
+    }
+    .partner > p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .partner__list p{
+        font-size: 14px;
+    }
+    .partner__list span{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .partner__list--photo{
+        min-width: 135px;
+    }
+    .team{
+        padding-bottom: 100px;
+    }
+    .company__parameters{
+        padding: 100px 0;
+    }
+    .choice__container{
+        max-width: 800px;
+    }
+    .conditions h1{
+        font-size: 40px;
+    }
+    .conditions p{
+        font-size: 12px;
+        max-width: 390px;
+    }
+    .conditions button{
+        font-size: 10px;
+    }
+    .choice__img{
+        min-height: 500px;
+    }
+    .project__main--container{
+        max-width: 800px;
+    }
+    .project__main--title h1{
+        font-size: 44px;
+        margin-top: 15px;
+    }
+    .project__main--title p{
+        font-size: 16px;
+    }
+    .project__video--play img{
+        width: 82px;
+    }
+    .project__video--play p{
+        font-size: 12px;
+    }
+    .project__our{
+        padding: 45px 30px 100px;
+    }
+    .project__our > h2{
+        font-size: 40px;
+    }
+    .project__gallery--choice{
+        margin-bottom: 15px;
+    }
+    .project__gallery--slider .swiper{
+        max-width: 320px;
+    }
+    .project_swiper .swiper-slide{
+        height: 49px;
+    }
+    .project__gallery--slider .project_swiper--2{
+        margin-bottom: 6px !important;
+    }
+    .project__about--price p{
+        font-size: 14px;
+    }
+    .project__about--price span{
+        font-size: 28px;
+    }
+    .project__about--price button{
+        font-size: 10px;
+    }
+    .project__about--technology h2, .project__about--property h2{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .property__lists span{
+        font-size: 10px;
+    }
+    .property__lists{
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .property__lists p{
+        font-size: 10px;
+    }
+    .technology__container span,
+    .technology__container p{
+        font-size: 10px;
+    }
+    .project__gallery--slider .swiper-button-next:after, .project__gallery--slider .swiper-rtl .swiper-button-prev:after{
+        width: 24px !important;
+        height: 24px;
+    }
+    .project__gallery--slider .swiper-button-prev:after, .project__gallery--slider .swiper-rtl .swiper-button-next:after{
+        width: 24px !important;
+        height: 24px;
+    }
+    .project__gallery--slider .swiper-button-next, .project__gallery--slider .swiper-button-prev{
+        width: 24px!important;
+        height: 24px!important;
+    }
+    .project__communications h2{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .communications__list p{
+        font-size: 14px;
+    }
+    .communications__list span{
+        font-size: 14px;
+    }
+    .project__communications{
+        padding: 0 30px 100px
+    }
+    .material h2{
+        font-size: 40px;
+    }
+    .material__parameters > div p{
+        font-size: 14px;
+    }
+    .material__img{
+        max-width: 630px;
+    }
+    .material__parameters--img{
+        max-width: 140px;
+        min-width: initial;
+    }
+    .material__parameters{
+        margin-left: -80px;
+    }
+    .material__parameters > div{
+        margin-bottom: 20px;
+    }
+    .construction__main p{
+        font-size: 16px;
+    }
+    .construction__main h1{
+        font-size: 44px;
+    }
+    .construction__main span{
+        font-size: 14px;
+        max-width: 140px;
+    }
+    .construction__gallery{
+        padding: 40px 30px;
+    }
+    .construction__video{
+        padding: 40px 30px 120px;
+    }
+    .construction__video h2{
+        font-size: 40px;
+        margin-right: 40px;
+    }
+}
+@media (max-width: 1100px) {
+    .choice__img--photo{
+        max-width: 500px;
+    }
+}
+@media (max-width: 950px) {
+    .choice__img--photo{
+        max-width: 450px;
+    }
+}
 @media (max-width: 860px) {
+    .team__lists {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .general__place--home {
+        padding-top: 0;
+    }
+
+    .general__main {
+        background-image: url(../img/general_main-mobile.png);
+    }
+
     .footer__navigate {
         flex-direction: column;
         align-items: flex-start;
     }
-    .protection{
+
+    .protection {
         flex-direction: column;
     }
-    .protection__img img{
+
+    .protection__img img {
         transform: rotate(18deg);
         width: 425px;
         margin-left: -155px;
     }
-    .protection__img > div{
+
+    .protection__img > div {
         top: 215px;
     }
+
     .footer__navigate > div {
         margin-right: 10px;
         margin-bottom: 30px;
     }
+
     .footer__container {
         align-items: center;
     }
@@ -3032,13 +3370,10 @@ section .trees__container {
     .header__navigate {
         display: none;
     }
-
-}
-
-@media (max-width: 860px) {
     .protection__img > div {
         max-width: 300px;
     }
+
     .footer__navigate > div a {
         font-size: 16px;
     }
@@ -3073,9 +3408,6 @@ section .trees__container {
     .footer__social > div p {
 
     }
-}
-
-@media (max-width: 860px) {
     .header__navigation {
         display: flex;
     }
@@ -3090,16 +3422,6 @@ section .trees__container {
         -webkit-align-items: center;
         align-items: center;
     }
-
-}
-
-@media (max-width: 440px) {
-    .header__navigation .header__menu {
-        width: initial;
-    }
-}
-
-@media (max-width: 860px) {
     .contact__container {
         flex-direction: column;
         padding: 0;
@@ -3126,6 +3448,7 @@ section .trees__container {
     .contact__info--adress,
     .contact__info--number {
         text-align: center;
+        margin-right: 0;
     }
 
     .trees__contact h1 {
@@ -3177,15 +3500,6 @@ section .trees__container {
     .trees__maps--mobile {
         display: block;
     }
-}
-
-@media (max-width: 550px) {
-    .trees__maps {
-        width: 100%;
-    }
-}
-
-@media (max-width: 860px) {
     .conditions__text--mobile {
         display: flex;
         flex-direction: column;
@@ -3204,6 +3518,7 @@ section .trees__container {
 
     .conditions p {
         margin: 0 0 35px;
+        font-size: 22px;
     }
 
     .conditions h1 {
@@ -3227,9 +3542,6 @@ section .trees__container {
         align-items: flex-end;
         width: 100%;
     }
-}
-
-@media (max-width: 860px) {
     .choice__img--photo {
         display: none;
     }
@@ -3251,18 +3563,6 @@ section .trees__container {
         flex-direction: column;
         padding: 0 0 69px;
     }
-}
-
-@media (max-width: 900px) {
-    .team__lists {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-}
-
-@media (max-width: 860px) {
     .team h2,
     .partner h2 {
         text-align: center;
@@ -3361,10 +3661,6 @@ section .trees__container {
         margin-bottom: 5px;
         font-size: 18px;
     }
-}
-
-
-@media (max-width: 860px) {
     .construction__main h1 {
         text-align: center;
         max-width: initial;
@@ -3400,10 +3696,8 @@ section .trees__container {
     .construction__gallery h2,
     .construction__video h2 {
         font-size: 45px;
+        margin-right: 0;
     }
-}
-
-@media (max-width: 860px) {
     .construction__main p {
         font-size: 18px;
     }
@@ -3431,15 +3725,10 @@ section .trees__container {
         display: flex;
         overflow-y: auto;
     }
-}
 
-@media (max-width: 860px) {
     #magnify {
         width: 100%;
     }
-}
-
-@media (max-width: 860px) {
     .communications__container {
         grid-template-columns: 1fr 1fr;
     }
@@ -3560,6 +3849,7 @@ section .trees__container {
     .project__about--property h2 {
         text-align: center;
         font-size: 28px;
+        margin-bottom: 20px;
     }
 
     .technology__container {
@@ -3571,6 +3861,7 @@ section .trees__container {
     .technology__container p {
         font-size: 20px;
         font-weight: 700;
+        margin-bottom: 20px;
     }
 
     .technology__container > div {
@@ -3653,10 +3944,6 @@ section .trees__container {
     .project__gallery--slider .swiper-pagination {
         display: block;
     }
-}
-
-
-@media (max-width: 860px) {
     .general__main--container {
         flex-direction: column;
     }
@@ -3764,9 +4051,6 @@ section .trees__container {
         text-align: center;
         font-size: 18px;
     }
-}
-
-@media (max-width: 860px) {
     .location__map img {
         width: 100%;
     }
@@ -3774,9 +4058,7 @@ section .trees__container {
     .cottage__header h2 {
         font-size: 45px;
     }
-}
 
-@media (max-width: 860px) {
     .home__material--mobile {
         display: block;
         margin-left: -30px;
@@ -3798,10 +4080,7 @@ section .trees__container {
     .cottage__header h2 {
         margin-bottom: 20px;
     }
-}
 
-
-@media (max-width: 860px) {
     .main__container--img {
         display: none;
     }
@@ -3852,24 +4131,29 @@ section .trees__container {
         display: flex;
         flex-direction: column-reverse;
     }
-    .location__map{
+
+    .location__map {
         display: flex;
         align-items: center;
         flex-direction: column;
         margin: 0 -30px;
     }
+
     .location__map--place {
         display: block;
     }
-.location__locate--container{
-    display: none;
-}
-    .location__tag--list{
+
+    .location__locate--container {
+        display: none;
+    }
+
+    .location__tag--list {
         display: flex;
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .main__title--meet a {
         margin: 10px 60px 40px -30px;
         background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 1.04%, #244E85 23.4%);
@@ -3911,15 +4195,19 @@ section .trees__container {
         font-size: 18px;
         margin-bottom: 30px;
     }
-    .location__tag{
+
+    .location__tag {
         margin-bottom: 10px;
     }
+
     .location__tag--list span {
         font-size: 16px;
     }
-.location__map--place{
-    margin-top: 24px;
-}
+
+    .location__map--place {
+        margin-top: 24px;
+    }
+
     .location__map .location__map--zoom {
         width: 100%;
     }
@@ -3928,11 +4216,13 @@ section .trees__container {
         font-size: 18px;
         max-width: 100%;
         color: #FFFFFF;
-        margin:  0 30px;
+        margin: 0 30px;
     }
-    .location__map--place span{
+
+    .location__map--place span {
         font-weight: 700;
     }
+
     .location {
         padding: 38px 0 50px;
     }
@@ -3953,5 +4243,60 @@ section .trees__container {
 
     .main__gallery {
         padding: 0 30px 60px;
+    }
+    .choice__container{
+        padding: 50px 30px 120px;
+    }
+    .company__logo img{
+        width: 190px;
+    }
+    .company__parameters--img{
+        max-width: 450px;
+    }
+    .company__parameters{
+        align-items: center;
+    }
+    .partner > p,
+    .team > p{
+        max-width: initial;
+    }
+    .partner__list{
+        justify-content: center;
+    }
+    .partner__list--about{
+        width: initial;
+    }
+    .partner__list p{
+        white-space: initial;
+    }
+    .project__our--container{
+        flex-direction: column;
+    }
+    .technology__container span{
+        font-size: 20px;
+    }
+    .material__img{
+        display: none;
+    }
+    .construction__main span{
+        font-size: 22px;
+        max-width: 270px;
+    }
+    .header__top--logo{
+        display: none;
+    }
+    .header__top{
+        justify-content: flex-end;
+        padding-top: 15px;
+    }
+}
+@media (max-width: 550px) {
+    .trees__maps {
+        width: 100%;
+    }
+}
+@media (max-width: 440px) {
+    .header__navigation .header__menu {
+        width: initial;
     }
 }
