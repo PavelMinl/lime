@@ -2236,14 +2236,7 @@ section .trees__container {
     top: 45px;
     right: initial;
 }
-
-.infrastructure {
-    position: relative;
-    overflow-x: hidden;
-}
-
 .infrastructure__container {
-    min-height: 640px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -2253,47 +2246,42 @@ section .trees__container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 60px 0 80px;
 }
-
-.water__img {
-    margin-right: -500px;
-}
-
 .infrastructure h2 {
     color: #3B3A3A;
     font-size: 56px;
     font-weight: 400;
-    max-width: 1000px;
+    max-width: 800px;
     margin-top: 25px;
 }
-
+.infrastructure__cube{
+    padding: 70px 0 0;
+}
+.infrastructure{
+    position: relative;
+}
+.infrastructure__water{
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
 .infrastructure__mkad {
     width: fit-content;
-    position: absolute;
-    left: -30px;
-    top: -100px;
 }
-
-.infrastructure__img {
-    margin-left: -100px;
-}
-
 .infrastructure__mkad--container {
     position: relative;
 }
-
+.infrastructure__container--index{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
 .infrastructure__water--container {
     position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-}
-
-.infrastructure__water--link {
-    position: absolute;
-    bottom: 195px;
-    left: 129px;
+    height: 100%;
 }
 
 .infrastructure__water--link img {
@@ -2327,13 +2315,13 @@ section .trees__container {
 .infrastructure__youtube {
     position: relative;
     width: fit-content;
-    margin-bottom: 80px;
+    margin: 100px 0 150px;
 }
 
 .infrastructure__mkad > a {
     position: absolute;
-    right: -154px;
-    top: 280px;
+    top: 220px;
+    left: 390px;
     width: fit-content;
     display: inline-block;
     padding: 7px 30px 7px 100px;
@@ -2454,88 +2442,87 @@ section .trees__container {
     right: 55px;
 }
 
-.in_metro {
-    left: -4px;
-    bottom: 410px
+.in_ic-13{
+    bottom: -60px;
 }
 
-.in_spa {
-    left: 0;
-    bottom: 300px;
+.in_ic-14{
+    right: -376px;
+    bottom: 26px;
 }
 
-.in_school {
-    left: -89px;
-    bottom: 172px;
+.in_ic-15 {
+    right: -300px;
+    bottom: -150px;
 }
 
-.in_park {
-    left: -113px;
-    bottom: 237px;
-}
-
-.in_metro-2 {
-    bottom: 145px;
-    left: 262px;
-}
-
-.in_garden {
-    right: 180px;
-}
-
-.in_garden-2 {
-    bottom: 150px;
-    right: -21px;
-}
-
-.in_place {
-    right: -114px;
-    bottom: 64px;
-}
-
-.in_coffee {
-    right: -164px;
-    bottom: 220px;
-}
-
-.in_garden-3 {
-    left: -79px;
-    top: 244px;
-}
-
-.in_jk {
-    right: -184px;
-    bottom: 130px;
-}
-
-.in_park-2 {
-    right: -71px;
-    bottom: -16px;
-}
-
-.in_home {
+.in_ic-16 {
     right: -250px;
-    bottom: 0px
 }
 
-.in_pharmacy {
-    right: -330px;
-    bottom: 370px;
+.in_ic-1{
+    bottom: 145px;
+    right: -415px;
 }
 
-.in_shop {
-    right: -235px;
-    bottom: 285px;
+.in_ic-2 {
+    right: 129px;
+    bottom: -20px;
 }
 
-.in_salon {
-    right: -384px;
-    bottom: 215px;
+.in_ic-3 {
+    bottom: 192px;
+    right: -370px;
 }
 
-.in_zoo {
+.in_ic-4 {
+    right: 0px;
+    bottom: -82px;
+}
+
+.in_ic-5 {
+    right: 1px;
+    bottom: 37px;
+}
+
+.in_ic-17 {
+    left: 170px;
+    top: 165px;
+}
+
+.in_ic-6 {
+    right: -153px;
+    bottom: 2px;
+}
+
+.in_ic-7 {
+    right: -74px;
+    bottom: -206px;
+}
+
+.in_ic-8 {
+    right: -104px;
+    bottom: -122px;
+}
+
+.in_ic-9 {
+    right: -157px;
+    bottom: 167px;
+}
+
+.in_ic-10{
+    right: -84px;
+    bottom: 99px;
+}
+
+.in_ic-11 {
+    right: -260px;
+    bottom: 90px;
+}
+
+.in_ic-12 {
     right: -500px;
-    bottom: 600px;
+    bottom: 450px;
 }
 
 .in_park-2 .in_ic-title,
@@ -2553,7 +2540,9 @@ section .trees__container {
 #ar-prompt {
     display: none;
 }
-
+.infrastructure__img{
+    margin-left: -300px;
+}
 /* Делаем 3D плеер на весь браузер */
 model-viewer {
     width: 600px;
@@ -2562,8 +2551,16 @@ model-viewer {
 .water__img--mobile{
     display: none;
 }
+.water__img{
+    height: 100%;
+}
 .infrastructure__img--mobile{
     display: none;
+}
+@media(max-width: 1600px) {
+    .water__img{
+        margin-right: -250px;
+    }
 }
 @media (max-width: 1400px) {
     .choice__img--photo{
