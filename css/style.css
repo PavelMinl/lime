@@ -2259,6 +2259,7 @@ section .trees__container {
 }
 .infrastructure{
     position: relative;
+    overflow-x: hidden;
 }
 .infrastructure__water{
     position: absolute;
