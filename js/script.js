@@ -26,3 +26,9 @@ $('a[href^="#"]').click(function(){
         scrollTop: $(anchor).offset().top
     }, 1000);
 });
+$(document).ready(function () {
+    $('.polygon--AKTrX').click(function () {
+        var polygonId = $(this).attr('id');
+        $('model-viewer').attr('src', '3d/' + polygonId + '.glb');
+    });
+});
