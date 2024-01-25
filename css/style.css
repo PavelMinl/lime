@@ -1475,10 +1475,10 @@ section .trees__container {
 }
 
 .general__place--container {
-    display: flex;
-    justify-content: space-between;
     position: relative;
     padding: 0;
+    margin: 0 auto;
+    max-width: 1890px;
 }
 
 .general__place--home {
@@ -1499,10 +1499,12 @@ section .trees__container {
 
 .general__place--img {
     backdrop-filter: blur(10px);
-    padding: 89px 30px;
     position: absolute;
-    max-width: 500px;
     right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
 }
 
 .general__plan--gallery {
@@ -2573,8 +2575,8 @@ section .trees__container {
 
 /* Делаем 3D плеер на весь браузер */
 model-viewer {
-    width: 400px;
-    height: 500px;
+    width: 800px;
+    height: 600px;
 }
 
 .water__img--mobile {
@@ -2849,14 +2851,12 @@ model-viewer {
     display: flex;
     position: relative;
     -webkit-justify-content: center;
-    max-height: 675px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     -moz-box-pack: center;
     justify-content: center;
-    margin-bottom: 80px;
 }
 
 .dump-container--AXqaZ {
@@ -2894,6 +2894,12 @@ model-viewer {
     font-weight: 700;
 }
 
+@media (max-width: 1800px) {
+    model-viewer{
+        width: 600px;
+
+    }
+}
 @media (max-width: 1600px) {
     .water__img {
         margin-right: -250px;
@@ -2901,8 +2907,15 @@ model-viewer {
 }
 
 @media (max-width: 1400px) {
+    .general__place--header{
+        top: 40px;
+    }
     .choice__img--photo {
         max-width: 600px;
+    }
+    model-viewer{
+        width: 400px;
+
     }
 }
 
