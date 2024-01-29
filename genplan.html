@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <script type="module" src="js/model-viewer.min.js"></script>
 
 </head>
 <body>
@@ -177,23 +176,35 @@
             <div data-name="GenplanLayout" class="container--oP4Ey">
 
                 <div class="layout--D5dwk">
-                    <div class="dump-container--AXqaZ"><img
+                    <div class="dump-container--AXqaZ "><img
                             src="img/test.png"
-                            class="genplan-dump--RTcKZ"></div>
+                            class="genplan-dump--RTcKZ genplan-dump--desktop">
+                        <img
+                                src="img/test2.png"
+                                class="genplan-dump--RTcKZ genplan-dump--mobile"></div>
                     <div class="genplan-container--ik7E3">
                         <div class="layout--gMPCS">
-                            <div style="max-width: 1890px; max-height: 755px; height: 100%;">
+                            <div class="genplan--gMPCS__container">
                                 <div class="genplan-container--lzhUn" tabindex="0">
                                     <div class="genplan-image-container--iu1r5"
                                          style="transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
                                         <img src="img/test.png"
-                                             class="genplan-image--j7sH_">
-                                        <svg id="genplan-svg" viewBox="0 0 1890 755"class="genplan--LmvPW">
-                                        <path class="polygon--AKTrX" id="brick_home1" d="M 489.5,350.5 C 534.175,357.97 578.508,366.304 622.5,375.5C 606.333,408.5 590.167,441.5 574,474.5C 564.987,493.519 556.821,512.853 549.5,532.5C 510.767,512.968 472.767,492.134 435.5,470C 454.2,430.437 472.2,390.604 489.5,350.5 Z" data-testid="polygon" />
-                                        <path class="polygon--AKTrX"  id="brick_home"d="M 829.5,413.5 C 897.508,425.169 965.508,436.835 1033.5,448.5C 1002.47,483.859 971.471,519.192 940.5,554.5C 892.541,531.186 843.874,509.519 794.5,489.5C 793.417,488.635 793.251,487.635 794,486.5C 806.918,462.665 818.751,438.332 829.5,413.5 Z" data-testid="polygon"/>
-                                        <path class="polygon--AKTrX"  id="brick_home1" d="M 626.5,375.5 C 660.745,381.392 695.078,386.726 729.5,391.5C 709.624,434.921 689.458,478.254 669,521.5C 660.996,540.831 652.496,559.831 643.5,578.5C 612.719,564.278 582.719,548.778 553.5,532C 577.711,479.747 602.044,427.58 626.5,375.5 Z" data-testid="polygon"/>
-                                        <path class="polygon--AKTrX"  id="brick_home"d="M 732.5,393.5 C 762.54,398.618 792.54,403.951 822.5,409.5C 796.271,472.005 768.771,534.005 740,595.5C 735.667,605.004 731.834,614.671 728.5,624.5C 701.103,611.302 674.436,596.802 648.5,581C 676.103,518.297 704.103,455.797 732.5,393.5 Z" data-testid="polygon"/>
-                                        <path class="polygon--AKTrX" id="brick_home1" d="M 791.5,493.5 C 841.413,514.583 891.079,536.249 940.5,558.5C 907.44,595.39 874.94,632.723 843,670.5C 840.318,673.35 837.484,676.016 834.5,678.5C 798.904,662.373 764.571,644.206 731.5,624C 752.764,581.025 772.764,537.525 791.5,493.5 Z" data-testid="polygon"/>
+                                             class="genplan-image--j7sH_ genplan-image--desktop">
+                                        <img src="img/test2.png"
+                                             class="genplan-image--j7sH_ genplan-image--mobile">
+                                        <svg id="genplan-svg" viewBox="0 0 1890 755" class="genplan--LmvPW genplan--LmvPW__desktop">
+                                        <path class="polygon--AKTrX" id="home1" d="M 489.5,350.5 C 534.175,357.97 578.508,366.304 622.5,375.5C 606.333,408.5 590.167,441.5 574,474.5C 564.987,493.519 556.821,512.853 549.5,532.5C 510.767,512.968 472.767,492.134 435.5,470C 454.2,430.437 472.2,390.604 489.5,350.5 Z" data-testid="polygon" />
+                                        <path class="polygon--AKTrX"  id="home2"d="M 829.5,413.5 C 897.508,425.169 965.508,436.835 1033.5,448.5C 1002.47,483.859 971.471,519.192 940.5,554.5C 892.541,531.186 843.874,509.519 794.5,489.5C 793.417,488.635 793.251,487.635 794,486.5C 806.918,462.665 818.751,438.332 829.5,413.5 Z" data-testid="polygon"/>
+                                        <path class="polygon--AKTrX"  id="home1" d="M 626.5,375.5 C 660.745,381.392 695.078,386.726 729.5,391.5C 709.624,434.921 689.458,478.254 669,521.5C 660.996,540.831 652.496,559.831 643.5,578.5C 612.719,564.278 582.719,548.778 553.5,532C 577.711,479.747 602.044,427.58 626.5,375.5 Z" data-testid="polygon"/>
+                                        <path class="polygon--AKTrX"  id="home2"d="M 732.5,393.5 C 762.54,398.618 792.54,403.951 822.5,409.5C 796.271,472.005 768.771,534.005 740,595.5C 735.667,605.004 731.834,614.671 728.5,624.5C 701.103,611.302 674.436,596.802 648.5,581C 676.103,518.297 704.103,455.797 732.5,393.5 Z" data-testid="polygon"/>
+                                        <path class="polygon--AKTrX" id="home1" d="M 791.5,493.5 C 841.413,514.583 891.079,536.249 940.5,558.5C 907.44,595.39 874.94,632.723 843,670.5C 840.318,673.35 837.484,676.016 834.5,678.5C 798.904,662.373 764.571,644.206 731.5,624C 752.764,581.025 772.764,537.525 791.5,493.5 Z" data-testid="polygon"/>
+                                        </svg>
+                                        <svg id="genplan-svg" viewBox="0 0 393 887" class="genplan--LmvPW genplan--LmvPW__mobile">
+                                            <path class="polygon--AKTrX" id="home1" d="M 134.5,577.5 C 156.705,580.341 178.705,584.341 200.5,589.5C 180.673,630.818 161.673,672.485 143.5,714.5C 122.948,705.059 102.948,694.892 83.5,684C 100.377,648.413 117.377,612.913 134.5,577.5 Z"/>
+                                            <path class="polygon--AKTrX" id="home2"d="M 40.5,559.5 C 70.505,563.783 100.172,569.45 129.5,576.5C 113.15,611.864 96.8168,647.197 80.5,682.5C 53.851,669.176 27.5176,655.343 1.5,641C 0.978136,640.439 0.644803,639.772 0.5,639C 13.9799,612.54 27.3132,586.04 40.5,559.5 Z"/>
+                                            <path class="polygon--AKTrX"  id="home1" d="M 203.5,590.5 C 211.911,591.059 220.244,592.225 228.5,594C 238.798,596.491 249.131,598.824 259.5,601C 261.573,601.118 262.907,602.118 263.5,604C 242.774,650.952 221.107,697.452 198.5,743.5C 182.642,734.069 166.309,725.403 149.5,717.5C 149.167,716.833 148.833,716.167 148.5,715.5C 166.646,673.72 184.98,632.053 203.5,590.5 Z"/>
+                                            <path class="polygon--AKTrX" id="home2"d="M 269.5,602.5 C 308.055,609.481 346.721,615.815 385.5,621.5C 384.873,635.1 381.04,647.767 374,659.5C 365.223,673.1 355.057,685.433 343.5,696.5C 311.231,681.699 279.231,666.365 247.5,650.5C 254.848,634.474 262.181,618.474 269.5,602.5 Z"/>
+                                            <path class="polygon--AKTrX" id="home1"d="M 244.5,657.5 C 245.873,657.343 247.207,657.51 248.5,658C 279.248,672.582 310.248,686.582 341.5,700C 318.786,727.259 295.952,754.426 273,781.5C 249.422,769.628 225.922,757.628 202.5,745.5C 216.511,716.145 230.511,686.812 244.5,657.5 Z"/>
                                         </svg>
                                     </div>
                                     <div>
@@ -229,19 +240,7 @@
                 </div>
             </div>
             <div class="general__place--img">
-                <model-viewer src="3d/brick_home.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
-                              tone-mapping="commerce" poster="poster.webp" shadow-intensity="1"
-                              camera-orbit="178.2deg 89.49deg 2030m" field-of-view="30deg">
-                    <div class="progress-bar hide" slot="progress-bar">
-                        <div class="update-bar"></div>
-                    </div>
-                    <button slot="ar-button" id="ar-button">
-                        View in your space
-                    </button>
-                    <div id="ar-prompt">
-                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-                    </div>
-                </model-viewer>
+                <img src="img/home1.png">
             </div>
         </div>
     </div>

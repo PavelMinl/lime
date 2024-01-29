@@ -29,6 +29,59 @@ $('a[href^="#"]').click(function(){
 $(document).ready(function () {
     $('.polygon--AKTrX').click(function () {
         var polygonId = $(this).attr('id');
-        $('model-viewer').attr('src', '3d/' + polygonId + '.glb');
+        $('.general__place--img img').attr('src', 'img/' + polygonId + '.png');
     });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    var mySwiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+
+    var layoutPoints = document.querySelectorAll('.layout__point');
+    layoutPoints.forEach(function (point) {
+        point.addEventListener('click', function () {
+            var pointId = point.id;
+            var photoUrls = getPhotoUrlsByPointId(pointId);
+            updateSwiperSlides(photoUrls);
+            document.getElementById('myModal').style.display = 'flex';
+        });
+    });
+
+
+    document.getElementById('myModal').addEventListener('click', function (event) {
+        if (event.target === this) {
+            this.style.display = 'none';
+        }
+    });
+
+    function getPhotoUrlsByPointId(pointId) {
+        switch (pointId) {
+            case 'kitchen':
+                return ['img/layout.png', 'img/test5.png', 'img/layout.png'];
+            case 'living_room':
+                return ['img/test5.png', 'img/layout.png', 'img/test5.png'];
+            case 'pantry':
+                return ['img/layout.png', 'img/layout.png', 'img/layout.png'];
+            case 'bedroom':
+                return ['img/test5.png', 'img/layout.png', 'img/test5.png'];
+            case 'bathroom':
+                return ['img/layout.png', 'img/test5.png', 'img/layout.png'];
+            default:
+                return [];
+        }
+    }
+
+    function updateSwiperSlides(photoUrls) {
+        mySwiper.removeAllSlides();
+        photoUrls.forEach(function (url) {
+            mySwiper.addSlide(0, '<div class="swiper-slide"><img src="' + url + '" ></div>');
+        });
+        mySwiper.update();
+    }
 });

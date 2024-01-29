@@ -1547,6 +1547,8 @@ section .trees__container {
     bottom: 0;
     display: flex;
     align-items: center;
+    padding: 60px;
+    max-width: 600px;
 }
 
 .general__plan--gallery {
@@ -2615,11 +2617,6 @@ section .trees__container {
     margin-left: -300px;
 }
 
-/* Делаем 3D плеер на весь браузер */
-model-viewer {
-    width: 800px;
-    height: 600px;
-}
 
 .water__img--mobile {
     display: none;
@@ -2941,16 +2938,65 @@ model-viewer {
     font-weight: 700;
 }
 
-@media (max-width: 1800px) {
-    model-viewer {
-        width: 600px;
-
-    }
+.genplan-image--mobile,
+.genplan-dump--mobile,
+.genplan--LmvPW__mobile {
+    display: none;
 }
 
+.genplan--gMPCS__container {
+    max-width: 1890px;
+    max-height: 755px;
+    height: 100%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.swiper-container {
+    max-width: 600px;
+}
+
+.swiper-container .swiper-slide img {
+    width: 100%;
+}
+
+.swiper-container .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-container .swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-container .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 50px;
+}
+.swiper-container .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-container .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 2px !important;
+}
+.swiper-container .swiper-pagination-bullet{
+    background:#FFFFFF;
+    opacity: 1;
+    width: 6px;
+    height: 6px;
+}
+
+.swiper-container .swiper-pagination-bullet-active{
+background: #244E85;
+}
 @media (max-width: 1600px) {
     .water__img {
         margin-right: -250px;
+    }
+
+    .general__place--img {
+        max-width: 500px;
     }
 }
 
@@ -2963,13 +3009,16 @@ model-viewer {
         max-width: 600px;
     }
 
-    model-viewer {
-        width: 400px;
-
+    .general__place--img {
+        max-width: 400px;
     }
+
 }
 
 @media (max-width: 1200px) {
+    .general__place--img {
+        max-width: 250px;
+    }
 
     .box {
         max-width: 800px;
@@ -3399,16 +3448,6 @@ model-viewer {
 
     .general__place--home p {
         font-size: 16px;
-    }
-
-    .general__place--img {
-        max-width: 500px;
-        right: 0;
-        top: 0;
-        padding: 0;
-        bottom: 0;
-        display: flex;
-        align-items: center;
     }
 
     .general__main {
@@ -4550,13 +4589,15 @@ model-viewer {
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        width: 717px;
+        width: 335px;
         padding: 0;
         margin: 0;
     }
 
     .general__place {
         overflow-x: hidden;
+        display: flex;
+        justify-content: center;
     }
 
     .general__place--home {
@@ -4564,12 +4605,16 @@ model-viewer {
     }
 
     .general__place--img {
-        padding: 0;
-        margin: 0;
-        right: initial;
+        padding: 30px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         bottom: initial;
-        top: 78px;
-        left: 72px;
+        top: 130px;
+        max-height: 300px;
     }
 
     .general__place--header {
@@ -4579,6 +4624,7 @@ model-viewer {
 
     .trees__container .trees {
         max-height: 60px;
+        margin-bottom: -1px;
     }
 
     .general__place--home h2 {
@@ -4865,11 +4911,6 @@ model-viewer {
     .header__top {
         justify-content: flex-end;
         padding-top: 15px;
-    }
-
-    .general__place--img model-viewer {
-        width: 251px;
-        height: 174px;
     }
 
     .location__tag--list {
@@ -5187,11 +5228,10 @@ model-viewer {
 
     }
 
-    .container--oP4Ey {
-        margin-bottom: 50px;
 
-    }
-
+    .genplan-image--desktop,
+    .genplan-dump--desktop,
+    .genplan--LmvPW__desktop,
     .anchor--KI2I5 {
         display: none;
     }
@@ -5199,6 +5239,18 @@ model-viewer {
     .layout--D5dwk {
         margin-bottom: 0;
     }
+
+    .genplan-dump--mobile,
+    .genplan-image--mobile,
+    .genplan--LmvPW__mobile {
+        display: initial;
+    }
+
+    .genplan--gMPCS__container {
+        max-width: 335px;
+        max-height: 755px;
+    }
+
 }
 
 @media (max-width: 550px) {
